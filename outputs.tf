@@ -35,8 +35,6 @@ output "kubeconfig" {
   value = local.kubeconfig
 }
 
-# Join configuration
-
 locals {
   config-map-aws-auth = <<CONFIGMAPAWSAUTH
 
